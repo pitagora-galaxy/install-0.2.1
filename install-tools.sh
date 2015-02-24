@@ -18,3 +18,5 @@ python ~/galaxy-dist/scripts/api/install_tool_shed_repositories.py -a 1be113aebd
 python ~/galaxy-dist/scripts/api/install_tool_shed_repositories.py -a 1be113aebd32fb048de8d3cc14ad91c3 -l http://localhost:8080 -u https://toolshed.g2.bx.psu.edu/ -n sql_tools -o sem4j -r 51847f1c0acb --panel-section-name "SQL Tools" --repository-deps --tool-deps
 python ~/galaxy-dist/scripts/api/install_tool_shed_repositories.py -a 1be113aebd32fb048de8d3cc14ad91c3 -l http://localhost:8080 -u https://toolshed.g2.bx.psu.edu/ -n tophat2 -o devteam -r da1f39fe14bc --panel-section-name "RNA-seq" --repository-deps --tool-deps
 python ~/galaxy-dist/scripts/api/install_tool_shed_repositories.py -a 1be113aebd32fb048de8d3cc14ad91c3 -l http://localhost:8080 -u https://toolshed.g2.bx.psu.edu/ -n cuffmerge -o devteam -r b6e3849293b1 --panel-section-name "RNA-seq" --repository-deps --tool-deps
+# WORKFLOWS
+python ~/galaxy-dist/scripts/api/install_tool_shed_repositories.py -a 1be113aebd32fb048de8d3cc14ad91c3 -l http://localhost:8080 -u https://testtoolshed.g2.bx.psu.edu/ -n pitagora_workflows -o pitagora -r 33d8c0f1b3b5
